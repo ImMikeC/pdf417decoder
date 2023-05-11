@@ -1,7 +1,7 @@
 from PIL import Image as PIL
 from pdf417decoder import PDF417Decoder
 
-image = PIL.open("./images/imagen3.png")
+image = PIL.open("./images/imagen1.jpeg")
 decoder = PDF417Decoder(image)
 
 if decoder.decode() > 0:
